@@ -16,7 +16,6 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<?import logincontrol.LoginControl?>
 <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scheduler.Controller">
    <columnConstraints>
       <ColumnConstraints />
@@ -94,7 +93,7 @@
                               <VBox prefHeight="595.0" prefWidth="929.0" />
                            </children>
                         </HBox>
-                        <LoginControl></LoginControl>
+                         <fx:include source="/logincontrol/login.fxml"/>
                      </children>
                   </StackPane>
                </children>
