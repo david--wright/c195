@@ -1,4 +1,4 @@
-package logincontrol;
+package dev.davidwright.appointmentmanager.controllers;
 
 import java.io.IOException;
 
@@ -12,10 +12,10 @@ import javafx.scene.layout.VBox;
 
 
 
-public class LoginControl extends VBox {
+public class Login extends VBox {
     @FXML private TextField textField;
     @FXML private TitledPane loginBox;
-    public LoginControl() {
+    public Login() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(
                 "login.fxml"));
         fxmlLoader.setRoot(this);

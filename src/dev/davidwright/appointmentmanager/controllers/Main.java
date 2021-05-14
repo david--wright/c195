@@ -1,4 +1,4 @@
-package scheduler;
+package dev.davidwright.appointmentmanager.controllers;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("scheduler.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("Appointment Manager");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();

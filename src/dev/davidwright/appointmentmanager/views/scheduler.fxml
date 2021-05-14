@@ -93,7 +93,6 @@
                               <VBox prefHeight="595.0" prefWidth="929.0" />
                            </children>
                         </HBox>
-                         <fx:include source="/logincontrol/login.fxml"/>
                      </children>
                   </StackPane>
                </children>
